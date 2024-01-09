@@ -18,13 +18,18 @@ function App() {
       <HeaderClassComponent/>
       <BodyClassCompoenet/>
       <Greetings/>
+      <br/>
       <p>State In class Compoent</p>
       <StateInClassComponent/>
+      <br/>
       <p>Counter Functionaloity using Class Compoent</p>
       <Counter/>
+      <br/>
       <p>Chaange style in class component</p>
       <MicroPhoneComponent/>
+      <br/>
       <FormInClassComponent/>
+      <br/>
       <FooterClassComponent/>
     </>
   )
