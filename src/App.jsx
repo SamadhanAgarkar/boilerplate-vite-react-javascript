@@ -7,6 +7,7 @@ import FooterClassComponent from "./Day-First-JSX/Class-Comonents/FooterClassCom
 import StateInClassComponent from "./Day-First-JSX/Class-Comonents/StateInClassComponent"
 import Counter from "./Day-First-JSX/Class-Comonents/CounterClassComponent"
 import MicroPhoneComponent from "./Day-First-JSX/Class-Comonents/MicroPhoneComponent"
+import FormInClassComponent from "./Day-First-JSX/Class-Comonents/FormInClassComponent"
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Counter/>
       <p>Chaange style in class component</p>
       <MicroPhoneComponent/>
+      <FormInClassComponent/>
       <FooterClassComponent/>
     </>
   )

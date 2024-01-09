@@ -13,8 +13,8 @@ state={
     render(){
         return(
             <div>
-                <input value={this.state.uName}/>
-            Hello, {this.state.uName}, {this.state.lName},{this.state.cityName}, {this.state.stateName}
+                <input value={this.state.uName}/><br/>
+            Hello,<b> {this.state.uName} {this.state.lName},</b> {this.state.cityName}, {this.state.stateName}
             </div>
         )
     }
