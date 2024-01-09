@@ -12,7 +12,7 @@ class FormInClassComponent extends Component{
                 <form>
                     <div>
                         <label for="fname">First Name:</label>
-                        <input type="text" id="fname" name="fname"/>
+                        <input type="text" id="fname" name="fname" />
                     </div>
                     <br/>
                     <div>
