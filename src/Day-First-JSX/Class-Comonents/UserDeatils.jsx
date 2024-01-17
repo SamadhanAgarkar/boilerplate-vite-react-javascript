@@ -5,7 +5,7 @@ class UserDetail extends Component {
         const { fName, email, password, female, male, cricket, football } = this.props;
         return (
             <>
-                <div style={{textAlign: 'left' }}>
+                <div style={{ textAlign: 'left' }}>
                     <h2>User Details</h2>
                     <p>
                         <strong>First Name:</strong> {fName}
@@ -17,11 +17,11 @@ class UserDetail extends Component {
                         <strong>Password:</strong> {password}
                     </p>
                     <p>
-                        <strong>Gender:</strong> 
-                        {female === "on" ? "female":"Male"} 
+                        <strong>Gender:</strong>
+                        {female === "on" ? "female" : "Male"}
                     </p>
                     <p>
-                        
+
                     </p>
                     <p>
                         <strong>cricket:</strong> {cricket}

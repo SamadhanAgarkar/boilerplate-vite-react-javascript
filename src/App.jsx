@@ -8,13 +8,23 @@ import StateInClassComponent from "./Day-First-JSX/Class-Comonents/StateInClassC
 import Counter from "./Day-First-JSX/Class-Comonents/CounterClassComponent"
 import MicroPhoneComponent from "./Day-First-JSX/Class-Comonents/MicroPhoneComponent"
 import Registration from "./Day-First-JSX/Class-Comonents/FormWithClassComponent"
+import HobbbiesFiddler from "./Day-First-JSX/Class-Comonents/HobbiesFiddler"
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import ToDoListComponent from "./Day-First-JSX/Class-Comonents/ToDoList"
+import LifeCycleComponent from "./Day-First-JSX/LifeCycle/MountingComponent"
+import UpdatingComponent from "./Day-First-JSX/LifeCycle/UpdattingComponent"
+import ConterFC from "./Component/FunctionComponent/Conter"
+import GreetingsFunction from "./Component/FunctionComponent/WelcomeComponent"
+import ToggleUI from "./Component/FunctionComponent/ToggleUIComponent"
+import FormAssignmentWithFunComponent from "./Component/FunctionComponent/FormAssignmentWithFunComponent"
 
 function App() {
   return (
     <>
       {/* <Homepage></Homepage>
       <MenuComponent></MenuComponent> */}
-
+      <ToastContainer />
       <HeaderClassComponent />
       {/* <BodyClassCompoenet/>
       <Greetings/>
@@ -30,9 +40,23 @@ function App() {
       <br/> */}
       {/* <FormInClassComponent /> */}
       {/* <RegistrationForm /> */}
+      {/* <Registration /> */}
       <br />
-      {/* <FooterClassComponent /> */}
-      <Registration />
+      {/* <HobbbiesFiddler /> */}
+      <br />
+      {/* <ToDoListComponent></ToDoListComponent> */}
+      {/* <LifeCycleComponent />
+      <UpdatingComponent /> */}
+      <ConterFC></ConterFC>
+      <hr />
+      <GreetingsFunction />
+      <hr />
+      <ToggleUI />
+      <hr />
+      <FormAssignmentWithFunComponent />
+      <FooterClassComponent />
+
+
     </>
   )
 }
