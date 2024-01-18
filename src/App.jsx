@@ -18,6 +18,10 @@ import ConterFC from "./Component/FunctionComponent/Conter"
 import GreetingsFunction from "./Component/FunctionComponent/WelcomeComponent"
 import ToggleUI from "./Component/FunctionComponent/ToggleUIComponent"
 import FormAssignmentWithFunComponent from "./Component/FunctionComponent/FormAssignmentWithFunComponent"
+import StaleCounter from "./Component/FunctionComponent/StaleStateIssue"
+import HobbiesFunc from "./Component/FunctionComponent/HobbiesFunct"
+import ProfileObj from "./Component/FunctionComponent/profile-obj"
+import UseEffectComponent from "./Component/FunctionComponent/UseEffectComponent"
 
 function App() {
   return (
@@ -53,7 +57,13 @@ function App() {
       <hr />
       <ToggleUI />
       <hr />
-      <FormAssignmentWithFunComponent />
+      {/* <FormAssignmentWithFunComponent /> */}
+      <StaleCounter />
+      <hr></hr>
+      <ProfileObj />
+      <HobbiesFunc />
+      <hr></hr>
+      <UseEffectComponent />
       <FooterClassComponent />
 
 
