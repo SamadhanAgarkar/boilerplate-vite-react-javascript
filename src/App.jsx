@@ -22,6 +22,8 @@ import StaleCounter from "./Component/FunctionComponent/StaleStateIssue"
 import HobbiesFunc from "./Component/FunctionComponent/HobbiesFunct"
 import ProfileObj from "./Component/FunctionComponent/profile-obj"
 import UseEffectComponent from "./Component/FunctionComponent/UseEffectComponent"
+import ShowProducts from "./Component/API Calling/ShowProducts"
+import PostData from "./Component/API Calling/PostData"
 
 function App() {
   return (
@@ -51,19 +53,21 @@ function App() {
       {/* <ToDoListComponent></ToDoListComponent> */}
       {/* <LifeCycleComponent />
       <UpdatingComponent /> */}
-      <ConterFC></ConterFC>
+      {/* <ConterFC></ConterFC>
       <hr />
       <GreetingsFunction />
       <hr />
       <ToggleUI />
-      <hr />
+      <hr /> */}
       {/* <FormAssignmentWithFunComponent /> */}
-      <StaleCounter />
+      {/* <StaleCounter />
       <hr></hr>
       <ProfileObj />
       <HobbiesFunc />
       <hr></hr>
-      <UseEffectComponent />
+      <UseEffectComponent /> */}
+      {/* <ShowProducts /> */}
+      <PostData />
       <FooterClassComponent />
 
 
